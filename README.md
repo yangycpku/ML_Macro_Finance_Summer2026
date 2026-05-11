@@ -1,9 +1,13 @@
 # PKU–Zurich PhD Summer School on Machine Learning for Macroeconomics and Finance (2026)
 
 <p align="center">
-  <img src="screens/pku.jpg" alt="Peking University" height="120">
+  <img src="screens/SummerSchool_Beijing.jpg" alt="PKU-Zurich PhD Summer School 2026 — Weiming Lake, Peking University">
+</p>
+
+<p align="center">
+  <img src="screens/pku.jpg" alt="Peking University" height="80">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screens/zu.png"  alt="University of Zurich" height="120">
+  <img src="screens/zu.png"  alt="University of Zurich" height="80">
 </p>
 
 This is the official teaching repository for the **PKU–Zurich PhD Summer School on Machine Learning for Macroeconomics and Finance**, to be held in Beijing, China, **July 6–10, 2026**.
