@@ -71,12 +71,6 @@ Lecture slides, code, and tutorial materials will be posted here as the school a
 
 ---
 
-## Contact
-
-Academic inquiries: **Yucheng Yang** — `yucheng.yang@uzh.ch`
-
----
-
 ## License
 
 Teaching materials in this repository are released under the [Creative Commons CC0 1.0 Universal](LICENSE) license, except where individual files state otherwise (e.g. third-party code retained under its original license).
