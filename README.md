@@ -1,5 +1,11 @@
 # PKU–Zurich PhD Summer School on Machine Learning for Macroeconomics and Finance (2026)
 
+<p align="center">
+  <img src="screens/pku.jpg" alt="Peking University" height="120">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screens/zu.png"  alt="University of Zurich" height="120">
+</p>
+
 This is the official teaching repository for the **PKU–Zurich PhD Summer School on Machine Learning for Macroeconomics and Finance**, to be held in Beijing, China, **July 6–10, 2026**.
 
 Lecture slides, code, and tutorial materials will be posted here as the school approaches.
@@ -85,7 +91,7 @@ Materials: [day1/Maliar](day1/Maliar)
 | 14:00–15:30 | Tutorial 2 | Simon Scheidegger | Hands-on practice |
 | 16:00–17:30 | Lecture 6 | Felix Kübler | Gaussian Processes and Bayesian Numerical Methods |
 
-Materials: [day2/Scheidegger](day2/Scheidegger) · [day2/Kubler](day2/Kubler)
+Materials: [day2/Scheidegger_Kubler](day2/Scheidegger_Kubler)
 
 ### Day 3 — Wednesday, July 8, 2026 · *DeepHAM and Reinforcement Learning*
 
@@ -97,7 +103,7 @@ Materials: [day2/Scheidegger](day2/Scheidegger) · [day2/Kubler](day2/Kubler)
 | 15:00–16:30 | Lecture 9 | Benjamin Moll *(special online lecture)* | Structural Reinforcement Learning for Macroeconomics |
 | 17:00–18:30 | Tutorial 3 | Yucheng Yang, Chiyuan Wang | Hands-on practice |
 
-Materials: [day3/Scheidegger_Kubler](day3/Scheidegger_Kubler) · [day3/Yang](day3/Yang) · [day3/Moll](day3/Moll)
+Materials: [day3/Scheidegger_Kubler](day3/Scheidegger_Kubler) · [day3/Moll_Yang](day3/Moll_Yang)
 
 ### Day 4 — Thursday, July 9, 2026 · *Deep Learning and Continuous-Time Macro-Finance*
 
