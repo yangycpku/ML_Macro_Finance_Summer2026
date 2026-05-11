@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# TensorFlow / PyTorch / JAX
+checkpoints/
+runs/
+logs/
+*.ckpt
+*.pt
+*.pth
+*.h5
+wandb/
+
+# Local data and outputs
+data/raw/
+data/processed/
+outputs/
+results/
