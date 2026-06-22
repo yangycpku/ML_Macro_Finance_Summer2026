@@ -12,6 +12,7 @@ Lecture slides, code, and tutorial materials will be posted here as the school a
 
 - Summer School website: <https://liboecon.com/2026_summer_school.html>
 - Tentative agenda: <https://liboecon.com/2026_summer_school_agenda.html>
+- **[Reading List (PDF)](Reading_List.pdf)** — pre-reading / pre-coding and per-day core & background readings ([LaTeX source](Reading_List.tex))
 
 **Organizers:** Felix Kübler (University of Zurich) · Bo Li (Peking University) · Yucheng Yang (University of Zurich)
 

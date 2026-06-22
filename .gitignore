@@ -50,3 +50,12 @@ data/raw/
 data/processed/
 outputs/
 results/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
