@@ -54,13 +54,6 @@
 \vspace{1.2em}
 
 \noindent
-Admitted participants come from economics, computer science, mathematics, and
-related fields. To make the most of the week, please arrive with a shared
-foundation: work through the \textbf{pre-reading and pre-coding} below before
-the school, and use the per-day lists to prepare for, and follow up on, each
-set of lectures. For each entry, \emph{core} readings are the papers the
-lectures are built on; \emph{background} items are foundational references
-that help if the topic is new to you.
 
 % ===========================================================================
 \section*{Before the Summer School (Pre-Reading \& Pre-Coding)}
@@ -90,7 +83,6 @@ Everyone should complete these two items before arriving in Beijing.
 
 \begin{itemize}
   \reading{Maliar, Maliar \& Winant (2021)}{Deep learning for solving dynamic economic models}{Journal of Monetary Economics 122, 76--101}{https://doi.org/10.1016/j.jmoneco.2021.07.004}{The ``Maliar--Maliar--Winant method'' named in the lectures: it recasts lifetime-reward, Bellman, and Euler-equation problems as deep-learning objectives trained by stochastic gradient descent, using the all-in-one expectation/integration operator. The core method paper for Day 1.}
-  \reading{Maliar, Maliar \& Winant (2019)}{Will Artificial Intelligence Replace Computational Economists Any Time Soon?}{CEPR Discussion Paper DP14024}{https://cepr.org/publications/dp14024}{The longer working-paper treatment, with fuller exposition of the all-in-one integration trick, neural-network model reduction, and implementation details useful for the hands-on tutorial.}
 \end{itemize}
 
 \bglabel
@@ -108,18 +100,25 @@ Everyone should complete these two items before arriving in Beijing.
 \begin{itemize}
   \reading{Azinovic, Gaegauf \& Scheidegger (2022)}{Deep Equilibrium Nets}{International Economic Review 63(4), 1471--1525}{https://doi.org/10.1111/iere.12575}{The flagship paper the DEQN lectures are built on: neural networks trained unsupervised to satisfy equilibrium conditions along simulated paths, with heterogeneity, uncertainty, and occasionally binding constraints. Reproduction code at \href{https://github.com/sischei/DeepEquilibriumNets}{github.com/sischei/DeepEquilibriumNets}.}
   \reading{Scheidegger \& Bilionis (2019)}{Machine learning for high-dimensional dynamic stochastic economies}{Journal of Computational Science 33, 68--82}{https://doi.org/10.1016/j.jocs.2019.03.004}{Combines Gaussian-process regression with active subspaces to solve models up to roughly 500 dimensions; bridges the deep-learning and Gaussian-process halves of Day 2.}
+  \reading{Chen, Didisheim \& Scheidegger (2026)}{Deep Surrogates for Finance: With an Application to Option Pricing}{Journal of Financial Economics 177, 104222}{https://doi.org/10.1016/j.jfineco.2025.104222}{Underpins the ``deep surrogate models and uncertainty quantification'' lecture: neural-network surrogates approximate expensive structural models to accelerate estimation by orders of magnitude.}
+  \reading{Friedl, Kübler, Scheidegger \& Usui (2021)}{Deep Uncertainty Quantification: With an Application to Integrated Assessment Models}{Working paper, University of Lausanne}{https://sites.google.com/site/simonscheidegger/working-papers}{The ``deep uncertainty quantification'' counterpart to the equilibrium-net methods: a deep-learning global solver paired with a Gaussian-process surrogate to perform parametric uncertainty quantification in stochastic dynamic models, illustrated on climate integrated-assessment models.}
   \reading{Rasmussen \& Williams (2006)}{Gaussian Processes for Machine Learning}{MIT Press (full text free online)}{https://gaussianprocess.org/gpml/}{The canonical reference for Kübler's Gaussian-processes and Bayesian numerical-methods lecture; focus on Chapters 2--5 (GP regression, covariance functions, hyperparameter learning).}
 \end{itemize}
 
 % ===========================================================================
 \section*{Day 3 --- DeepHAM and Structural Reinforcement Learning}
-\textit{Yucheng Yang (University of Zurich), Benjamin Moll (LSE), Simon Scheidegger / Felix Kübler}
+\textit{Yucheng Yang (University of Zurich), Benjamin Moll (LSE)}
 \smallskip
 
 \begin{itemize}
   \reading{Han, Yang \& E (2026)}{DeepHAM: A Global Solution Method for Heterogeneous Agent Models with Aggregate Shocks}{Quantitative Economics 17(2), 297--341}{https://doi.org/10.3982/QE2190}{The DeepHAM method: neural networks approximate value and policy functions and represent the cross-sectional distribution via learned generalized moments. Focus on the moment representation and the simulation-based training objective.}
-  \reading{Yang, Wang, Schaab \& Moll (2025)}{Structural Reinforcement Learning for Heterogeneous Agent Macroeconomics}{arXiv:2512.18892}{https://arxiv.org/abs/2512.18892}{The basis for Moll's special online lecture: a structural RL method that uses low-dimensional prices as state variables and lets agents learn equilibrium price dynamics from simulated paths (Krusell--Smith, Huggett with aggregate shocks, HANK).}
-  \reading{Chen, Didisheim \& Scheidegger (2026)}{Deep Surrogates for Finance: With an Application to Option Pricing}{Journal of Financial Economics 177, 104222}{https://doi.org/10.1016/j.jfineco.2025.104222}{Underpins the ``deep surrogate models and uncertainty quantification'' lecture: neural-network surrogates approximate expensive structural models to accelerate estimation by orders of magnitude.}
+  \reading{Yang, Wang, Schaab \& Moll (2025)}{Structural Reinforcement Learning for Heterogeneous Agent Macroeconomics}{arXiv:2512.18892}{https://arxiv.org/abs/2512.18892}{The basis for Moll's special online lecture: a structural RL method that uses low-dimensional prices as state variables and lets agents learn equilibrium price dynamics from simulated paths (Krusell--Smith, Huggett with aggregate shocks, HANK). Code coming soon.}
+  \reading{Wibault et al. (2026)}{Recurrent Structural Policy Gradient for Partially Observable Mean Field Games}{International Conference on Machine Learning (ICML), 2026}{https://arxiv.org/abs/2602.20141}{A history-aware ``structural'' policy-gradient method for partially observable mean-field games with common noise that solves, for the first time, a macroeconomics mean-field game with heterogeneous agents and history-dependent policies; introduces the MFAX (JAX) framework. Code at \href{https://github.com/CWibault/mfax}{github.com/CWibault/mfax}.}
+\end{itemize}
+
+\bglabel
+\begin{itemize}
+  \reading{Moll (2025)}{The Trouble with Rational Expectations in Heterogeneous Agent Models: A Challenge for Macroeconomics}{The Economic Journal (forthcoming); Economic Journal Lecture, RES 2024}{https://arxiv.org/abs/2508.20571}{Argues that rational expectations about equilibrium prices --- which force agents to forecast the entire cross-sectional distribution (the ``master equation'') --- are computationally and behaviorally implausible, and points to learning and reinforcement-learning alternatives; the conceptual motivation for the structural-RL lecture.}
 \end{itemize}
 
 % ===========================================================================
