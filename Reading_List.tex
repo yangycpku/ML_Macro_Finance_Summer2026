@@ -12,6 +12,7 @@
 \definecolor{accent}{HTML}{1A5276}   % deep blue for headings
 \definecolor{linkblue}{HTML}{1A5FB4}  % clickable links
 \definecolor{notegray}{HTML}{454545}  % annotation text
+\definecolor{alertred}{HTML}{C0151B}  % emphasis
 
 \usepackage{hyperref}
 \hypersetup{
@@ -57,7 +58,7 @@
 % ===========================================================================
 \section*{Before the Summer School (Pre-Reading \& Pre-Coding)}
 
-Everyone should complete these two items before arriving in Beijing.
+{\color{alertred}\textbf{Everyone should complete these two items before arriving in Beijing.}}
 
 \begin{itemize}
   \item \textbf{Reading --- heterogeneous-agent models.}
@@ -100,7 +101,7 @@ Everyone should complete these two items before arriving in Beijing.
 \smallskip
 
 \begin{itemize}
-  \reading{Scheidegger (2026)}{Deep Learning for Solving and Estimating Dynamic Models in Economics and Finance}{arXiv:2605.14493 (lecture notes, with TensorFlow / PyTorch notebooks). Code: \href{https://github.com/sischei/Deep_Learning_for_Solving_And_Estimating_Dynamic_Economic_Models}{github.com/\allowbreak sischei/\allowbreak Deep\_\allowbreak Learning\_\allowbreak for\_\allowbreak Solving\_\allowbreak And\_\allowbreak Estimating\_\allowbreak Dynamic\_\allowbreak Economic\_\allowbreak Models}}{https://arxiv.org/abs/2605.14493}{}
+  \reading{Scheidegger (2026)}{Deep Learning for Solving and Estimating Dynamic Models in Economics and Finance}{arXiv:2605.14493. Code: \href{https://github.com/sischei/Deep_Learning_for_Solving_And_Estimating_Dynamic_Economic_Models}{github.com/\allowbreak sischei/\allowbreak Deep\_\allowbreak Learning\_\allowbreak for\_\allowbreak Solving\_\allowbreak And\_\allowbreak Estimating\_\allowbreak Dynamic\_\allowbreak Economic\_\allowbreak Models}}{https://arxiv.org/abs/2605.14493}{}
   \reading{Azinovic, Gaegauf \& Scheidegger (2022)}{Deep Equilibrium Nets}{International Economic Review 63(4), 1471--1525. Code: \href{https://github.com/sischei/DeepEquilibriumNets}{github.com/\allowbreak sischei/\allowbreak DeepEquilibriumNets}}{https://doi.org/10.1111/iere.12575}{The flagship paper the DEQN lectures are built on: neural networks trained unsupervised to satisfy equilibrium conditions along simulated paths, with heterogeneity, uncertainty, and occasionally binding constraints. Reproduction code at \href{https://github.com/sischei/DeepEquilibriumNets}{github.com/sischei/DeepEquilibriumNets}.}
   \reading{Scheidegger \& Bilionis (2019)}{Machine learning for high-dimensional dynamic stochastic economies}{Journal of Computational Science 33, 68--82}{https://doi.org/10.1016/j.jocs.2019.03.004}{Combines Gaussian-process regression with active subspaces to solve models up to roughly 500 dimensions; bridges the deep-learning and Gaussian-process halves of Day 2.}
   \reading{Chen, Didisheim \& Scheidegger (2026)}{Deep Surrogates for Finance: With an Application to Option Pricing}{Journal of Financial Economics 177, 104222}{https://doi.org/10.1016/j.jfineco.2025.104222}{Underpins the ``deep surrogate models and uncertainty quantification'' lecture: neural-network surrogates approximate expensive structural models to accelerate estimation by orders of magnitude.}
@@ -117,12 +118,12 @@ Everyone should complete these two items before arriving in Beijing.
   \reading{Han, Yang \& E (2026)}{DeepHAM: A Global Solution Method for Heterogeneous Agent Models with Aggregate Shocks}{Quantitative Economics 17(2), 297--341. Code: \href{https://github.com/frankhan91/DeepHAM}{github.com/\allowbreak frankhan91/\allowbreak DeepHAM}}{https://doi.org/10.3982/QE2190}{The DeepHAM method: neural networks approximate value and policy functions and represent the cross-sectional distribution via learned generalized moments. Focus on the moment representation and the simulation-based training objective.}
   \reading{Yang, Wang, Schaab \& Moll (2025)}{Structural Reinforcement Learning for Heterogeneous Agent Macroeconomics}{arXiv:2512.18892 (code coming soon)}{https://arxiv.org/abs/2512.18892}{The basis for Moll's special online lecture: a structural RL method that uses low-dimensional prices as state variables and lets agents learn equilibrium price dynamics from simulated paths (Krusell--Smith, Huggett with aggregate shocks, HANK). Code coming soon.}
   \reading{Wibault, Forkel, Towers, Wibault, Duque, Whittle, Schaab, Yang, Wang, Osborne, Moll \& Foerster (2026)}{Recurrent Structural Policy Gradient for Partially Observable Mean Field Games}{International Conference on Machine Learning (ICML), 2026. Code: \href{https://github.com/CWibault/mfax}{github.com/\allowbreak CWibault/\allowbreak mfax}}{https://arxiv.org/abs/2602.20141}{A history-aware ``structural'' policy-gradient method for partially observable mean-field games with common noise that solves, for the first time, a macroeconomics mean-field game with heterogeneous agents and history-dependent policies; introduces the MFAX (JAX) framework. Code at \href{https://github.com/CWibault/mfax}{github.com/CWibault/mfax}.}
+  \reading{Zhao (2024)}{Mathematical Foundations of Reinforcement Learning}{Springer Nature \& Tsinghua University Press (esp. Ch.~6 on stochastic approximation / Robbins--Monro)}{https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning}{}
 \end{itemize}
 
 \bglabel
 \begin{itemize}
   \reading{Moll (2026)}{The Trouble with Rational Expectations in Heterogeneous Agent Models: A Challenge for Macroeconomics}{The Economic Journal 136(676), 1173--1216}{https://doi.org/10.1093/ej/ueaf104}{Argues that rational expectations about equilibrium prices --- which force agents to forecast the entire cross-sectional distribution (the ``master equation'') --- are computationally and behaviorally implausible, and points to learning and reinforcement-learning alternatives; the conceptual motivation for the structural-RL lecture.}
-  \reading{Zhao (2024)}{Mathematical Foundations of Reinforcement Learning}{Springer Nature \& Tsinghua University Press (esp. Ch.~6 on stochastic approximation / Robbins--Monro)}{https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning}{}
   \reading{Sutton \& Barto (2018)}{Reinforcement Learning: An Introduction}{2nd ed., MIT Press}{http://incompleteideas.net/book/the-book-2nd.html}{}
 \end{itemize}
 
