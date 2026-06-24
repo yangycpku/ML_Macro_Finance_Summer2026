@@ -26,7 +26,7 @@ Each day's folder contains `slides/`, `code/`, and `readings/` for the instructo
 - **Day 2 — Tue, July 7 · Deep Equilibrium Nets** (Simon Scheidegger, Felix Kübler) — [Materials](day2)
 - **Day 3 — Wed, July 8 · DeepHAM and Structural Reinforcement Learning** (Yucheng Yang, Benjamin Moll) — [Materials](day3)
 - **Day 4 — Thu, July 9 · Deep Learning and Continuous-Time Macro-Finance** (Goutham Gopalakrishna) — [Materials](day4)
-- **Day 5 — Fri, July 10 · Deep Learning for Macro-Finance and Beyond** (Jonathan Payne; keynote by Weinan E) — [Materials](day5)
+- **Day 5 — Fri, July 10 · Deep Learning for Macro-Finance and Beyond** (Jonathan Payne) — [Materials](day5)
 
 ---
 
